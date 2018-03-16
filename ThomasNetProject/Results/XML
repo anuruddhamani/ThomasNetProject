@@ -1,0 +1,37 @@
+=> ThomasNetProject.Features.SalesDashBoardFeatureForAccountsFeature._01_ToTestTheLoginFuntionalityAndClickOnTheJeopardyAccounts
+Given User should be landed sucessfully on the home page as with the provided url
+-> done: InitialPageSteps.GivenUserShouldBeLandedSucessfullyOnTheHomePageAsWithTheProvidedUrl() (0.0s)
+When User Clicks on the login with SalesForce link
+-> done: InitialPageSteps.WhenUserClicksOnTheLoginWithSalesForceLink() (3.3s)
+Then user should navigate to the credentials page
+-> done: InitialPageSteps.ThenUserShouldNavigateToTheCredentialsPage() (3.8s)
+When Enter username and password
+-> done: InitialPageSteps.WhenEnterUsernameAndPassword() (0.4s)
+And Click on the login button
+-> done: InitialPageSteps.WhenClickOnTheLoginButton() (3.5s)
+Then User should successfully landed to the Main Page
+-> done: InitialPageSteps.ThenUserShouldSuccessfullyLandedToTheMainPage() (13.4s)
+When User clicks on the JeoPardy Accounts link
+-> done: InitialPageSteps.WhenUserClicksOnTheJeoPardyAccountsLink() (3.5s)
+Then User should be landed successfully for jeopardy accounts page
+-> done: InitialPageSteps.ThenUserShouldBeLandedSuccessfullyForJeopardyAccountsPage() (0.1s)
+=> ThomasNetProject.Features.SalesDashBoardFeatureForAccountsFeature._02_UserShouldBeSuccessfullyLandsToTheJeopardySpecficAcccount
+When user clicks on any of the account listed
+-> done: InitialPageSteps.WhenUserClicksOnAnyOfTheAccountListed() (6.7s)
+Then user should be navigates to the correct page
+-> done: InitialPageSteps.ThenUserShouldBeNavigatesToTheCorrectPage() (0.0s)
+=> ThomasNetProject.Features.SalesDashBoardFeatureForAccountsFeature._03_UserShouldBeAbleToVerifyTheTextPresentInThePDFPRINT
+When User clicks on the Invoices/Payments link
+-> done: InitialPageSteps.WhenUserClicksOnTheInvoicesPaymentsLink() (0.2s)
+And click on the PDF link
+-> done: InitialPageSteps.WhenClickOnThePDFLink() (7.5s)
+Then user should be verify that PDF data is validated
+-> done: InitialPageSteps.ThenUserShouldBeVerifyThatPDFDataIsValidated() (0.2s)
+When Now, user clicks on the Recon link
+-> done: InitialPageSteps.WhenNowUserClicksOnTheReconLink() (0.6s)
+And Click on the Print button
+-> done: InitialPageSteps.WhenClickOnThePrintButton() (7.9s)
+Then user verifies the data
+-> done: InitialPageSteps.ThenUserVerifiesTheData() (13.9s)
+=> ThomasNetProject.Features.SalesDashBoardFeatureForAccountsFeature
+-> Using app.config
